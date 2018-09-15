@@ -12,7 +12,7 @@ import {connect} from 'react-redux';
       return (
             <div>
               <h3> Details for:</h3>
-              <div>Title:{this.props.book.title}</div>
+              <div className="title">Title:{this.props.book.title}</div>
               <div>Pages:{this.props.book.pages}</div>
 
             </div>
